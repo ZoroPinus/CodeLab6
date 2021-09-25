@@ -1,5 +1,6 @@
 package com.example.codelab6
 
+import android.content.Intent
 import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,8 +10,11 @@ import android.widget.Toast
 
 import androidx.appcompat.widget.Toolbar
 import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
+import com.google.android.material.appbar.AppBarLayout
+import com.google.android.material.appbar.MaterialToolbar
 
 import com.google.android.material.navigation.NavigationView
 
@@ -23,7 +27,7 @@ class HomeActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        val navigation_view = findViewById<NavigationView>(R.id.navigation_view)
+        //val navigation_view = findViewById<NavigationView>(R.id.navigation_view)
         val toolbar = findViewById<Toolbar>(R.id.toolbar_main)
         setSupportActionBar(toolbar)
 
@@ -36,7 +40,7 @@ class HomeActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeButtonEnabled(true)
 
-        navigation_view.setNavigationItemSelectedListener(this)
+
     }
 
     override fun onPostCreate(savedInstanceState: Bundle?) {
@@ -54,6 +58,7 @@ class HomeActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
             return true
         }
         return super.onOptionsItemSelected(item)
+
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
@@ -66,6 +71,10 @@ class HomeActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
             }
             R.id.navi_about -> {
                 Toast.makeText(this,"clicked about",Toast.LENGTH_SHORT).show()
+            }
+            R.id.navigation_view_bottom ->{
+                val intent = Intent(this,photo::class.java)
+                startActivity(intent)
             }
         }
         drawer.closeDrawer(GravityCompat.START)

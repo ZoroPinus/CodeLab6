@@ -6,9 +6,15 @@
         <entry key="..\:/Codelab6/app/src/main/res/layout/activity_getstarted.xml" value="0.28442028985507245" />
         <entry key="..\:/Codelab6/app/src/main/res/layout/activity_home.xml" value="0.20520833333333333" />
         <entry key="..\:/Codelab6/app/src/main/res/layout/activity_main.xml" value="0.28442028985507245" />
+        <entry key="..\:/Codelab6/app/src/main/res/layout/activity_photo.xml" value="0.36666666666666664" />
         <entry key="..\:/Codelab6/app/src/main/res/layout/app_bar_main.xml" value="0.28442028985507245" />
+        <entry key="..\:/Codelab6/app/src/main/res/layout/fragment_favorites.xml" value="0.36666666666666664" />
+        <entry key="..\:/Codelab6/app/src/main/res/layout/fragment_gallery.xml" value="0.36666666666666664" />
+        <entry key="..\:/Codelab6/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Codelab6/app/src/main/res/layout/fragment_search.xml" value="0.36666666666666664" />
         <entry key="..\:/Codelab6/app/src/main/res/layout/navi_header.xml" value="0.28442028985507245" />
         <entry key="..\:/Codelab6/app/src/main/res/menu/main_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Codelab6/app/src/main/res/menu/navi_menu.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

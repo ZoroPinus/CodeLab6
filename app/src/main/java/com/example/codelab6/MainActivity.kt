@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         loginbtn.setOnClickListener{
             if (username.text.toString().equals("admin") && password.text.toString().equals("admin")){
-                val intent = Intent(this, HomeActivity::class.java)
+                val intent = Intent(this, getstarted::class.java)
                 startActivity(intent)
             } else {
                 val snackBar = Snackbar.make(it, "incorrect username or password",

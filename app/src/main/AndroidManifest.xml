@@ -10,8 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Codelab6">
         <activity
+            android:name=".photo"
+            android:exported="true" />
+        <activity
             android:name=".HomeActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
