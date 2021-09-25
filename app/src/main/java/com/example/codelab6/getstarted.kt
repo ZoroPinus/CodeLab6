@@ -25,7 +25,7 @@ class getstarted : AppCompatActivity(), NavigationView.OnNavigationItemSelectedL
         val textView = findViewById<TextView>(R.id.helloUser_txt)
         val intent = getIntent()
         val msg = intent.getStringExtra("name")
-        textView.setText("Hello "+msg +"!" )
+        textView.setText("Hello "+msg  )
 
        // val bottomNavigationView = findViewById(R.id.navigation_view_bottom)
        // navigation_view_bottom.setOnNavigationItemSelectedListener(this)
