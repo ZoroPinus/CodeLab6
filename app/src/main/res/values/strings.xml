@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SuliTrip</string>
+    <string name="hello">hello</string>
+    <string name="app_logo">logo</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="log_in">login</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+</resources>
